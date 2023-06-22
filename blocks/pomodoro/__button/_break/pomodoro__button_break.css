@@ -1,0 +1,13 @@
+.pomodoro__button_break {
+  color: #68d5c1;
+  border: 1px solid #68d5c1;
+}
+
+.pomodoro__button_break:disabled {
+  color: #377267;
+  border: 1px solid #377267;
+}
+
+.pomodoro__button_break:hover {
+  box-shadow: 0 0 15px 4px rgba(104, 213, 193, 0.9);
+}

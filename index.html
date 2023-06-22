@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pomodoro</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="pages/index.css">
+</head>
+<body class="body">
+<div class="page">
+  <header class="header">
+    <h1 class="header__title">
+      POMODORO
+    </h1>
+  </header>
+  <main class="main">
+    <section class="pomodoro">
+      <div class="pomodoro__buttons">
+        <button type="button" class="pomodoro__button pomodoro__work" disabled>
+          Work
+        </button>
+        <button type="button" class="pomodoro__button pomodoro__small-break">
+          Small Break
+        </button>
+        <button type="button" class="pomodoro__button pomodoro__big-break">
+          Big Break
+        </button>
+      </div>
+      <span class="pomodoro__timer">
+        25:00
+      </span>
+      <div class="pomodoro__buttons">
+        <button type="button" class="pomodoro__button pomodoro__stop">
+          Stop
+        </button>
+        <button type="button" class="pomodoro__button pomodoro__start">
+          Start
+        </button>
+        <button type="button" class="pomodoro__button pomodoro__reset">
+          Reset
+        </button>
+      </div>
+    </section>
+  </main>
+</div>
+<script src="pages/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+@import "../vendor/normalize.css";
+
+@import "../blocks/body/body.css";
+@import "../blocks/body/_break/body_break.css";
+
+@import "../blocks/page/page.css";
+
+@import "../blocks/main/main.css";
+
+@import "../blocks/header/header.css";
+@import "../blocks/header/__title/header__title.css";
+
+@import "../blocks/pomodoro/pomodoro.css";
+@import "../blocks/pomodoro/__button/pomodoro__button.css";
+@import "../blocks/pomodoro/__button/_break/pomodoro__button_break.css";
+@import "../blocks/pomodoro/__timer/pomodoro__timer.css";
+@import "../blocks/pomodoro/__buttons/pomodoro__buttons.css";
+@import "../blocks/pomodoro/__start/pomodoro__start.css";

@@ -1,0 +1,5 @@
+.body {
+  background-color: #181818;
+  color: #e81d1d;
+  transition: color 0.5s ease-in-out 0s;
+}

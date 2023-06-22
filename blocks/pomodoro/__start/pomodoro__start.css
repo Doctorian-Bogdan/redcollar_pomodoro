@@ -1,0 +1,9 @@
+.pomodoro__start {
+  color: #42e81d;
+  border: 1px solid #42e81d;
+}
+
+.pomodoro__start:hover {
+  box-shadow: 0 0 15px 4px rgba(66, 232, 29, 0.9);
+  transition: 0.3s;
+}

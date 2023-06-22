@@ -1,0 +1,29 @@
+.pomodoro__button {
+  box-sizing: border-box;
+  padding: 10px 15px;
+  font-size: 18px;
+  border-radius: 50px;
+  min-width: 130px;
+  background: transparent;
+  color: #e81d1d;
+  border: 1px solid #e81d1d;
+  cursor: pointer;
+  font-weight: 300;
+  transition: 0.3s;
+}
+
+.pomodoro__button:disabled {
+  color: #4f0606;
+  border: 1px solid #4f0606;
+  transition: 0.3s;
+  cursor: default;
+}
+
+.pomodoro__button:hover {
+  box-shadow: 0 0 15px 4px rgba(232, 29, 29, 0.9);
+  transition: 0.3s;
+}
+
+.pomodoro__button:disabled:hover {
+  box-shadow: none;
+}
