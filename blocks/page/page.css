@@ -13,3 +13,10 @@
   margin: 0 auto;
   height: 100vh;
 }
+
+@media screen and (max-width: 500px) {
+  .page {
+    max-width: 360px;
+    padding: 0;
+  }
+}

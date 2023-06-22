@@ -11,3 +11,9 @@
 .pomodoro__button_break:hover {
   box-shadow: 0 0 15px 4px rgba(104, 213, 193, 0.9);
 }
+
+@media screen and (max-width: 500px) {
+  .pomodoro__button_break:hover {
+    box-shadow: 0 0 8px 3px rgba(104, 213, 193, 0.9);
+  }
+}

@@ -27,3 +27,15 @@
 .pomodoro__button:disabled:hover {
   box-shadow: none;
 }
+
+@media screen and (max-width: 500px) {
+  .pomodoro__button {
+    font-size: 16px;
+    padding: 10px 10px;
+    min-width: 90px;
+  }
+
+  .pomodoro__button:hover {
+    box-shadow: 0 0 8px 3px rgba(232, 29, 29, 0.9);
+  }
+}

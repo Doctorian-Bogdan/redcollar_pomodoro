@@ -3,3 +3,9 @@
   gap: 20px;
   justify-content: center;
 }
+
+@media screen and (max-width: 500px) {
+  .pomodoro__buttons {
+    gap: 10px;
+  }
+}
